@@ -1,11 +1,10 @@
 import React from 'react'
 
-const UserOutput = () => {
+const UserOutput = (props) => {
   return (
     <div id='output'>
-        {/* the two paragraphs */}
-        <p>President Bola Tinubu is the new president of Nigeria.</p>
-        <p> My Matthew Oluwajuwon is my tutor.</p>
+        {/* the output component */}
+        <p>My name is {props.username} and i am a programmer</p>
     </div>
   )
 }
